@@ -1,46 +1,50 @@
 function resizeWin() {
-    myWindow.resizeTo(250, 250);                             
-    myWindow.focus();                                     
+    myWindow.resizeTo(250, 250);
+    myWindow.focus();
 }
 
+body {
+    max-width: 100%;
+    min-width: 100%;
+    display: block;
+}
 
- #Rectangle1 
-{ 
-	 left: 0; 
-	 top: -2px; 
-	 position: absolute; 
+ #Rectangle1
+{
+	 left: 0;
+	 top: -2px;
+	 position: absolute;
 	 width: 1935px;
 	 height: 110px;
 	 z-index:1;
-} 
+}
 
- #Portfolio 
-{ 
-	 left: 910px; 
-	 top: 34px; 
-	 position: absolute; 
+ #Portfolio
+{
+	 left: 910px;
+	 top: 34px;
+	 position: absolute;
 	 width: 100px;
 	 height: 20px;
 	 z-index:2;
-} 
+}
 
- #Discord 
-{ 
-	 left: 1020px; 
-	 top: 34px; 
-	 position: absolute; 
+ #Discord
+{
+	 left: 1020px;
+	 top: 34px;
+	 position: absolute;
 	 width: 88px;
 	 height: 20px;
 	 z-index:3;
-} 
+}
 
- #Shop 
-{ 
-	 left: 840px; 
-	 top: 34px; 
-	 position: absolute; 
+ #Shop
+{
+	 left: 840px;
+	 top: 34px;
+	 position: absolute;
 	 width: 60px;
 	 height: 26px;
 	 z-index:4;
-} 
- 
+}
